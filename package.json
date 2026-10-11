@@ -1,0 +1,25 @@
+{
+  "name": "smart-grid-ai-energy-optimizer",
+  "version": "1.0.0",
+  "description": "Autonomous Smart Grid Energy Efficiency & AI Load Optimization Engine for Urban Infrastructure",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "smart-grid",
+    "energy-efficiency",
+    "ai-optimization",
+    "iot-edge",
+    "renewable-energy",
+    "dorahacks"
+  ],
+  "author": "Tingqiu Liu <tianqi689@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
